@@ -41,14 +41,7 @@ input:
 		goto input;
 		break;
 	}
-	cout << "Would You like to have another try!(Enter the options below:)\n1.To play another game.\n2.To Quit:";
-	cin >> option;
-	if (option == 1)
-		goto input;
-	else
-	{
-		cout << "Thank you Bye!";
-	}
+	cout << "Thank you Bye!";
 	return 0;
 }
 bool validate(int i)
